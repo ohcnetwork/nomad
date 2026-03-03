@@ -6,6 +6,9 @@ data/
 alloc/
 secrets/
 
+*.log
+*.pid
+
 # Nomad dev agent state
 /tmp/nomad*
 

@@ -21,7 +21,7 @@ else
   echo "No nomad.pid file found"
 fi
 
-echo "Consul agent stoping"
+echo "Stopping Consul agent..."
 if [ -f consul.pid ]; then
   kill "$(cat consul.pid)" 2>/dev/null || true
   rm -f consul.pid consul.log
