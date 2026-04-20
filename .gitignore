@@ -1,0 +1,26 @@
+# Runtime artifacts
+nomad.log
+nomad.pid
+nomad-data/
+data/
+alloc/
+secrets/
+consul.log
+consul.pid
+consul-data/
+*.log
+*.pid
+
+# Editor & OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
